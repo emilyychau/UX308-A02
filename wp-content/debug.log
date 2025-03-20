@@ -1217,3 +1217,4 @@ Stack trace:
 #5 [internal function]: IC_EPC_Tracking->fatal()
 #6 {main}
   thrown in /workspaces/UX308-L06/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[20-Mar-2025 23:26:13 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX308-A02/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
