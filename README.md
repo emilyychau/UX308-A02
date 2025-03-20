@@ -14,14 +14,9 @@ The idea of this is as a consumer of microfrontends. There is an example microfr
 
 Have fun composing work from autonomous teams.
 
-# UX308 Lab 6
+# UX308 Assignment 2
 
-## Browser Environment - PWA
+In this assignment you will add your chatbot to your lab 6 website.
 
-I (@rhildred) have been working on a system to make a progressive web app with wordpress. In this assignment you will produce a wordpress site, using wordpress, and publish it on github pages.
+Combining Assignment 1 chatbot w/ the Lab 6 Wordpress website
 
-The website should be about the same thing as your Assignment 1 with 3 posts or landing pages they can find by googling. You will also need an about page to give context for your post.
-
-You will need to have the products you are selling with your bot in the site as well. You can add some extras too.
-
-We will publish these sites on github pages together and build on this next week for assignment 2.
