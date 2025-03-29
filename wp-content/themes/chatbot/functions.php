@@ -11,7 +11,8 @@ function theme_enqueue_styles() {
         array('parent-style')
     );
     wp_enqueue_script('custom_javascript', get_stylesheet_directory_uri() . '/customElements.js');
-    
+    wp_enqueue_script_module('custom_module1', "https://emilyychau.github.io/UX308-fab/index.js");
+    wp_enqueue_script_module('custom_module2', "https://emilyychau.github.io/UX308-fab/fab.js");
 }
 //
 // Your code goes below
