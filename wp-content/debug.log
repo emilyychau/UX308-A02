@@ -1220,3 +1220,135 @@ Stack trace:
 [20-Mar-2025 23:26:13 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX308-A02/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
 [29-Mar-2025 03:53:13 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/UX308-A02/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
 [29-Mar-2025 03:53:13 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/UX308-A02/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[29-Mar-2025 04:14:37 UTC] PHP Fatal error:  Out of memory (allocated 35651584) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/custom-design.php on line 293
+[29-Mar-2025 04:14:37 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:14:47 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/custom-design.php on line 293
+[29-Mar-2025 04:14:47 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:14:57 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/custom-design.php on line 293
+[29-Mar-2025 04:14:57 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:15:02 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/image-sizes.php on line 36
+[29-Mar-2025 04:15:02 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:15:07 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/custom-design.php on line 293
+[29-Mar-2025 04:15:07 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:15:17 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/custom-design.php on line 293
+[29-Mar-2025 04:15:17 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:15:27 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/image-sizes.php on line 36
+[29-Mar-2025 04:15:27 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:15:27 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/custom-design.php on line 293
+[29-Mar-2025 04:15:27 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:15:28 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/image-sizes.php on line 36
+[29-Mar-2025 04:15:28 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:15:38 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/custom-design.php on line 293
+[29-Mar-2025 04:15:38 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:15:42 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/image-sizes.php on line 36
+[29-Mar-2025 04:15:42 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[29-Mar-2025 04:15:49 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/custom-design.php on line 293
+[29-Mar-2025 04:15:49 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX308-A02/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
