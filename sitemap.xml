@@ -17,11 +17,6 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/about/
         </loc>
     </url>
@@ -33,6 +28,16 @@
     <url>
         <loc>
             http://localhost:8000/contact-us/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/blog-posts/
         </loc>
     </url>
     <url>
